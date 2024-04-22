@@ -18,19 +18,13 @@ const e={typography:{title:`
       font-size: 1.1rem;
       font-weight: 400;
       line-height: 1.488rem;
-    `,cardNumber:`
+    `,paragraph1:`
       font-family: Inter;
       font-size: 1.4rem;
       font-weight: 500;
       line-height: 2rem;
       letter-spacing: 0.16rem;
-    `,cardExpirationDate:`
-      font-family: Inter;
-      font-size: 1.4rem;
-      font-weight: 500;
-      line-height: 2rem;
-      letter-spacing: 0.08rem;
-    `,cardUserName:`
+    `,paragraph2:`
       font-family: Inter;
       font-size: 1.4rem;
       font-weight: 500;
