@@ -1,11 +1,11 @@
-import { createHashRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import CardRegisterForm from './pages/CardRegisterForm/CardRegisterForm';
 import SuccessRegister from './pages/SuccessRegister/SuccessRegister';
 import URLS from './constants/Urls';
 import Fallback from './pages/fallback/Fallback';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
