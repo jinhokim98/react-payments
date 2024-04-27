@@ -1,5 +1,5 @@
 const URLS = {
-  base: '/react-payments/',
+  base: 'https://jinhokim98.github.io/react-payments/',
   register: '',
   success: 'success',
   error: 'error',
