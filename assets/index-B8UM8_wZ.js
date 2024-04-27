@@ -453,7 +453,7 @@ table {
   width: 100%;
   height: 4.4rem;
   bottom: 0;
-`,_o={base:"/react-payments/",register:"",success:"success",error:"error"},Qw=()=>{const{previewProps:e,formProps:t,isFormError:n,resetForm:r,formValues:o}=Vw({cardNumbers:[],expirationDate:[],userName:"",cardBrand:null,cvcNumber:"",password:""}),i=Hs(),l=a=>{a.preventDefault();const u={firstCardNumbers:o.cardNumbers[0],cardBrand:o.cardBrand??""};r(),i(_o.success,{state:u})};return L.jsxs(L.Fragment,{children:[L.jsxs(Ww,{id:"card-register-form",onSubmit:l,children:[L.jsx(Tw,{...e}),L.jsx(yw,{...t})]}),!n&&L.jsx(Gw,{children:L.jsx(Vs,{form:"card-register-form",label:"확인"})})]})},Kw=b.section`
+`,_o={base:"https://jinhokim98.github.io/react-payments/",register:"",success:"success",error:"error"},Qw=()=>{const{previewProps:e,formProps:t,isFormError:n,resetForm:r,formValues:o}=Vw({cardNumbers:[],expirationDate:[],userName:"",cardBrand:null,cvcNumber:"",password:""}),i=Hs(),l=a=>{a.preventDefault();const u={firstCardNumbers:o.cardNumbers[0],cardBrand:o.cardBrand??""};r(),i(_o.success,{state:u})};return L.jsxs(L.Fragment,{children:[L.jsxs(Ww,{id:"card-register-form",onSubmit:l,children:[L.jsx(Tw,{...e}),L.jsx(yw,{...t})]}),!n&&L.jsx(Gw,{children:L.jsx(Vs,{form:"card-register-form",label:"확인"})})]})},Kw=b.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
