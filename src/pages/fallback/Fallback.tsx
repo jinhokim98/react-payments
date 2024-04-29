@@ -16,10 +16,12 @@ const Fallback = () => {
 
   return (
     <Styled.Container>
-      <Styled.FaliureIcon src={Failure} alt="" />
-      <Styled.Ment>{ERROR_MESSAGE}</Styled.Ment>
+      <Styled.FailureIcon src={Failure} alt="" />
+      <Styled.ErrorMessage>{ERROR_MESSAGE}</Styled.ErrorMessage>
       <Styled.BackButton>
-        <Button label="확인" style={{ borderRadius: 8 }} onClick={goMain} />
+        <Button style={{ borderRadius: 8 }} onClick={goMain}>
+          확인
+        </Button>
       </Styled.BackButton>
     </Styled.Container>
   );

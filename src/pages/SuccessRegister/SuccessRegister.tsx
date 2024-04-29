@@ -21,7 +21,7 @@ const SuccessRegister = () => {
   ${cardInfoState?.cardBrand}가 등록되었어요.`;
 
   const goRegisterPage = () => {
-    navigate(URLS.register);
+    navigate(`/${URLS.register}`);
   };
 
   return (
@@ -29,7 +29,9 @@ const SuccessRegister = () => {
       <Styled.SuccessIcon src={SuccessIcon} alt="" />
       <Styled.CardInfo>{cardInfo}</Styled.CardInfo>
       <Styled.BackButton>
-        <Button label="확인" style={{ borderRadius: 8 }} onClick={goRegisterPage} />
+        <Button style={{ borderRadius: 8 }} onClick={goRegisterPage}>
+          확인
+        </Button>
       </Styled.BackButton>
     </Styled.Container>
   );
