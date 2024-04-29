@@ -480,7 +480,7 @@ table {
   width: 100%;
   height: 4.4rem;
 `,t2="data:image/svg+xml,%3csvg%20width='76'%20height='76'%20viewBox='0%200%2076%2076'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='38'%20cy='38'%20r='38'%20fill='%23333333'/%3e%3cpath%20d='M23%2034.0377L35.0471%2048L55%2028'%20stroke='white'%20stroke-width='7.49999'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e",n2=()=>{const e=Vs(),n=Hs().state;N.useEffect(()=>{n===null&&e(Fr.error)},[n,e]);const r=`${n==null?void 0:n.firstCardNumbers}로 시작하는
-  ${n==null?void 0:n.cardBrand}가 등록되었어요.`,o=()=>{e(`/${Fr.register}`)};return L.jsxs(Zw,{children:[L.jsx(Jw,{src:t2,alt:""}),L.jsx(qw,{children:r}),L.jsx(e2,{children:L.jsx(Ws,{style:{borderRadius:8},onClick:o,children:"확인"})})]})},r2=b.section`
+  ${n==null?void 0:n.cardBrand}가 등록되었어요.`,o=()=>{e(Fr.register)};return L.jsxs(Zw,{children:[L.jsx(Jw,{src:t2,alt:""}),L.jsx(qw,{children:r}),L.jsx(e2,{children:L.jsx(Ws,{style:{borderRadius:8},onClick:o,children:"확인"})})]})},r2=b.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
