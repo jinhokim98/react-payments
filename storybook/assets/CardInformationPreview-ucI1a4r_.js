@@ -1,4 +1,4 @@
-import{u as o,j as r}from"./styled-components.browser.esm-DO55u7qc.js";import{t}from"./theme-CdHeXgP_.js";import{C as n}from"./Condition-BRmbTLfl.js";const S=o.section`
+import{u as o,j as r}from"./styled-components.browser.esm-DO55u7qc.js";import{t}from"./theme-CdHeXgP_.js";import{C as n}from"./Condition-DPDJyMct.js";const S=o.section`
   position: relative;
   width: 21.2rem;
   height: 13.2rem;
